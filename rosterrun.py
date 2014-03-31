@@ -1037,9 +1037,9 @@ def transaction():
       session.pop('logged_in', None)
       return redirect(url_for('login'))
       
-  ps = gt
+  ts = Transactionstatement(print'statement')
  
-  return render_template('transaction.html', statement=mgt, playerstatement =gt)
+  return render_template('transaction.html', statement=mgt, playerstatement =ts)
 
         
 '''
